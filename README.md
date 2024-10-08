@@ -11,7 +11,7 @@ To get this project up and running, you will need to [sign-up][signup-page] for 
 After downloading, navigate to the directory and run the `balena push` command using the [balena CLI][balena-cli]. This command will package up and push the code to the balena builders, where it will be compiled, built and deployed to every device in the fleet. When it completes, you'll have a NodeJS powered web server running on your device and you can see some logs on your [device dashboard][balena-dashboard].
 
 ```bash
-cd balena-nodejs-hello-world/
+cd balena-ubuntu-cantest/
 balena push <FLEET_NAME>
 ```
 
